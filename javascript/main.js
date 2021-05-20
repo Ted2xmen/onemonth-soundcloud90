@@ -134,3 +134,6 @@ SoundCloudAPI.getEmbed = function(trackUrl){
 }
 var sideBar = document.querySelector('.js-playlist');
 sideBar.innerHTML = localStorage.getItem("key");
+
+
+// to-do: add- storage.clear 
