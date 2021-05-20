@@ -137,3 +137,11 @@ sideBar.innerHTML = localStorage.getItem("key");
 
 
 // to-do: add- storage.clear 
+
+
+var reset = document.querySelector('.reset').addEventListener('click', function(reset){
+
+location.reload();
+localStorage.clear();
+
+});
